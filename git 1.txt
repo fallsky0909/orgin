@@ -1,0 +1,35 @@
+운영체제(OS) 윈도우/리눅스
+
+git 설치
+
+git bash 실행
+
+현재 컴퓨터에서 git 명령어를 수행하는 사람에 대한 설정
+git config --global user.name "사용할 이름"
+git config --global user.email "이메일"
+
+로컬 저장소
+ls : list => 현재 폴더에 존재하는 파일, 폴더 목록 보여주기
+pwd : print working directory => 현재 작업 디렉토리
+
+/c/Users/falls
+cd .. (change directory).. 상위 폴더로 변경
+cd 경로지정
+
+로컬저장소 생성
+git init (숨김항목 보이기 체크 - .git)
+
+git 현재 상태 보기
+git status
+
+Untracked files : 추적 여부를 결정하지 않은 파일
+
+git add 파일명 : 해당 파일은 추적 하겠음
+git add . : 현재 폴더에 있는 모든 파일 및 폴더 추적
+
+새로 작성한 파일을 git add 파일명 ==> stage 영역으로 옮겨진 것
+
+git commit -m "first commit" : 로컬 저장소로 저장(반드시 커밋 메세지 필요함)
+
+
+
